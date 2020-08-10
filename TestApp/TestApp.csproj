@@ -25,6 +25,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\WordsDictionaryLibrary\WordsDictionaryLibrary.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Reference Include="WordsDictionaryLibrary">
       <HintPath>ClassLibrary1\bin\Debug\netcoreapp3.1\WordsDictionaryLibrary.dll</HintPath>
     </Reference>
